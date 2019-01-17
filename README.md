@@ -22,7 +22,7 @@ You should also install [govendor](https://github.com/kardianos/govendor) if you
 ## Deploying to Heroku
 
 ```sh
-$ heroku create
+$ heroku create --stack container
 $ git push heroku master
 $ heroku open
 ```
